@@ -1,0 +1,596 @@
+@media (max-width: 1199px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* header */
+    .navbar-expand-lg .navbar-nav {
+        align-items: center;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+        font-size: .875rem;
+    }
+
+    .main-btn {
+        font-size: .875rem;
+    }
+
+    .booking-section {
+        background-color: white;
+        padding: 0.5rem;
+        margin-right: -6rem;
+        margin-left: -6rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .room-reservation-title h1 {
+        font-size: 1rem;
+    }
+
+    .form-group {
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+
+    .form-group .col-lg {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .form-group label {
+        font-size: 1rem;
+        margin-bottom: 0.7rem;
+        text-align: right;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .form-group button[type="submit"] {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+    }
+
+    #invoice {
+        direction: rtl;
+        /* تغيير الاتجاه إلى من اليمين إلى اليسار */
+        width: 75%;
+        margin: auto;
+        margin-top: 1rem;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        direction: rtl;
+        /* تغيير الاتجاه للكامل #invoice */
+    }
+
+    table {
+        direction: ltr;
+        /* تغيير الاتجاه إلى من اليسار إلى اليمين للجدول فقط */
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        direction: rtl;
+        /* تغيير الاتجاه للكامل #invoice */
+    }
+
+
+    thead tr {
+        background-color: #153767;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    th,
+    td {
+        padding: 12px 15px;
+        /*text-align: right;*/
+        /* لتنسيق النصوص بالعربي */
+        direction: rtl;
+        /* تغيير الاتجاه للكامل #invoice */
+    }
+
+    tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    tbody tr:last-of-type {
+        border-bottom: 2px solid #153767;
+    }
+
+    #logo-container img {
+        display: block;
+        margin: 0 auto 20px;
+        max-width: 150px;
+    }
+
+    .header_wrapper .navbar-toggler {
+        border: 0;
+        color: var(--primary-text);
+        line-height: 2;
+    }
+
+    .header_wrapper .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .footer_wrapper .col-lg-3 {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .footer_wrapper .col-lg-3:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .footer_wrapper .col-lg-3:nth-child(even) {
+        margin-left: 0;
+    }
+
+    .footer_wrapper .social-network {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+/* قياسات الشاشة المتوسطة */
+@media (max-width: 991px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* 2 Navbar */
+    .header-scrolled {
+        height: auto;
+    }
+
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: .9375rem;
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        margin-top: .9375rem;
+    }
+
+
+    .booking-section {
+        background-color: white;
+        padding: 0.5rem;
+        margin-right: -6rem;
+        margin-left: -6rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .room-reservation-title h1 {
+        font-size: 1rem;
+    }
+
+    .form-group {
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+
+    .form-group .col-lg {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .form-group label {
+        font-size: 1rem;
+        margin-bottom: 0.7rem;
+        text-align: right;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .form-group button[type="submit"] {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+    }
+
+    #invoice {
+        direction: rtl;
+        /* تغيير الاتجاه إلى من اليمين إلى اليسار */
+        width: 75%;
+        margin: auto;
+        margin-top: 1rem;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        direction: rtl;
+        /* تغيير الاتجاه للكامل #invoice */
+    }
+
+    table {
+        direction: ltr;
+        /* تغيير الاتجاه إلى من اليسار إلى اليمين للجدول فقط */
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        direction: rtl;
+        /* تغيير الاتجاه للكامل #invoice */
+    }
+
+
+    thead tr {
+        background-color: #153767;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    th,
+    td {
+        padding: 12px 15px;
+        /*text-align: right;*/
+        /* لتنسيق النصوص بالعربي */
+        direction: rtl;
+        /* تغيير الاتجاه للكامل #invoice */
+    }
+
+    tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    tbody tr:last-of-type {
+        border-bottom: 2px solid #153767;
+    }
+
+    #logo-container img {
+        display: block;
+        margin: 0 auto 20px;
+        max-width: 150px;
+    }
+
+    .header_wrapper .navbar-toggler {
+        border: 0;
+        color: var(--primary-text);
+        line-height: 2;
+    }
+
+    .header_wrapper .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .footer_wrapper .row {
+        flex-wrap: wrap;
+    }
+
+    .footer_wrapper .col-lg-3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer_wrapper .col-lg-3:first-child {
+        margin-bottom: 0;
+    }
+
+    .footer_wrapper .col-lg-3.text-center {
+        margin-bottom: 0;
+    }
+
+    .footer_wrapper .social-network {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+}
+
+/* قياسات الشاشة الكبيرة */
+@media (max-width: 767px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .booking-section {
+        background-color: white;
+        padding: 0.5rem;
+        margin-right: -6rem;
+        margin-left: -6rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .room-reservation-title {
+        h1 {
+            font-size: 1rem;
+        }
+    }
+
+    .form-group {
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+
+    .form-group .col-lg {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .form-group label {
+        font-size: 1rem;
+        margin-bottom: 0.7rem;
+        text-align: center;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .form-group button[type="submit"] {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+
+    }
+
+    #invoice {
+        direction: rtl;
+        /* تغيير الاتجاه إلى من اليمين إلى اليسار */
+        width: 75%;
+        margin: auto;
+        margin-top: 1rem;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        direction: rtl;
+        /* تغيير الاتجاه للكامل #invoice */
+    }
+
+    table {
+        direction: ltr;
+        /* تغيير الاتجاه إلى من اليسار إلى اليمين للجدول فقط */
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        direction: rtl;
+        /* تغيير الاتجاه للكامل #invoice */
+    }
+
+
+    thead tr {
+        background-color: #153767;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    th,
+    td {
+        padding: 12px 15px;
+        /*text-align: right;*/
+        /* لتنسيق النصوص بالعربي */
+        direction: rtl;
+        /* تغيير الاتجاه للكامل #invoice */
+    }
+
+    tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    tbody tr:last-of-type {
+        border-bottom: 2px solid #153767;
+    }
+
+    #logo-container img {
+        display: block;
+        margin: 0 auto 20px;
+        max-width: 150px;
+    }
+
+    .header_wrapper .navbar-toggler {
+        border: 0;
+        color: var(--primary-text);
+        line-height: 2;
+    }
+
+    .header_wrapper .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .footer_wrapper .col-lg-3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer_wrapper .social-network {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 505px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .booking-section {
+        background-color: white;
+        padding: 0.2rem;
+        margin-right: -8rem;
+        margin-left: -8rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .room-reservation-title {
+        line-height: 5rem;
+        h1 {
+            font-size: 0.5rem;
+        }
+
+    }
+
+    .form-group {
+        flex-wrap: wrap;
+        margin-bottom: 0.5rem;
+    }
+
+    .form-group .col-lg {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+    }
+
+    .form-group label {
+        font-size: 0.6rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 0.6rem;
+        padding: 0.4rem;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .form-group button[type="submit"] {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    #invoice {
+        direction: rtl;
+        width: 100%;
+        margin: auto;
+        margin-top: 1rem;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        direction: rtl;
+    }
+
+    table {
+        direction: ltr;
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        direction: rtl;
+    }
+
+    th,
+    td {
+        padding: 12px 15px;
+        direction: rtl;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
+    #logo-container img {
+        display: block;
+        margin: 0 auto 20px;
+        max-width: 150px;
+    }
+
+    .header_wrapper .navbar-toggler {
+        border: 0;
+        color: var(--primary-text);
+        line-height: 2;
+    }
+
+    .header_wrapper .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .footer_wrapper .col-lg-3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer_wrapper .col-lg-3.text-center {
+        margin-bottom: 0;
+    }
+
+    .footer_wrapper .social-network {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+    }
+}

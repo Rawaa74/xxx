@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RYUTAN Hotel</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/Picture1.png">
+
+    <title>حجز الفندق</title>
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+    <link rel="stylesheet" href="css/responsive-style1.css">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+    <link rel="stylesheet" href="css/responsive-style1.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img decoding="async" src="images/Picture1.png" class="img-fluid" alt="logo"
+                        style="margin-top: -1rem;">
+                    <h5 style="margin-bottom: -1rem;">Ryutan Hotel</h5>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html#home"
+                                style="font-size: 1.5rem">الصفحة الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about" style="font-size: 1.5rem">عن ريوتان</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#rooms" style="font-size: 1.5rem">الغرف</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#services" style="font-size: 1.5rem">الخدمات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#gallery" style="font-size: 1.5rem">الواجهات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#food" style="font-size: 1.5rem">المطعم</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn" href="booking.html" style="font-size: 1.5rem">احجز الآن</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <div class="booking-section">
+        <div class="container booking-area">
+            <form class="form-group" id="bookingForm">
+                <h1 class="room-reservation-title" style="color: #132260; font-size: 3.2rem; margin-bottom: 3rem;">حجز
+                    الغرف
+                </h1>
+                <!-- حقول الاستمارة -->
+                <div class="col-lg mb-3 mb-lg-0">
+                    <label for="name" style="color: #2560a9; font-size: 1.5rem; margin-bottom: 0.7rem;"> الاسم :</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="col-lg mb-3 mb-lg-0">
+                    <label for="phone" style="color: #2560a9; font-size: 1.5rem; margin-bottom: 0.7rem;"> رقم الجوال
+                        :</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="col-lg mb-3 mb-lg-0">
+                    <label for="checkin-date" style="color: #2560a9; font-size: 1.5rem; margin-bottom: 0.7rem;"> تاريخ
+                        الدخول :</label>
+                    <input type="date" id="checkin-date" name="checkin-date" required>
+                </div>
+
+                <div class="col-lg mb-3 mb-lg-0">
+                    <label for="checkout-date" style="color: #2560a9; font-size: 1.5rem; margin-bottom: 0.7rem;"> تاريخ
+                        الخروج :</label>
+                    <input type="date" id="checkout-date" name="checkout-date" required>
+                </div>
+
+                <div class="col-lg mb-3 mb-lg-0">
+                    <label for="chronic-diseases"
+                        style="color: #2560a9; font-size: 1.5rem; margin-bottom: 0.7rem;">الأمراض
+                        المزمنة :</label>
+                    <select class="form-select" id="chronic-diseases" name="chronic-diseases">
+                        <option value="nothing">اختر</option>
+                        <option value="Heart-disease">أمراض القلب</option>
+                        <option value="asthma">ربو</option>
+                        <option value="anemia">فقر الدم</option>
+                        <option value="diabetes">سكر</option>
+                        <option value="blood-pressure">ضغط</option>
+                        <option value="others">اخرى</option>
+                        <option value="nothing">لا يوجد</option>
+                    </select>
+                </div>
+
+                <div class="col-lg mb-3 mb-lg-0">
+                    <label for="room" style="color: #2560a9; font-size: 1.5rem; margin-bottom: 0.7rem;"> اختر الغرفة
+                        :</label>
+                    <select class="form-select" id="room" name="room">
+                        <option value="nothing">اختر</option>
+                        <option value="single">غرفة مفردة</option>
+                        <option value="double">غرفة مزدوجة</option>
+                        <option value="suite">جناح</option>
+                    </select>
+                </div>
+
+                <div class="col-lg mb-3 mb-lg-0">
+                    <label for="meals" style="color: #2560a9; font-size: 1.5rem; margin-bottom: 0.7rem;">اختر
+                        الوجبات :</label>
+                    <select class="form-select" id="meals" name="meals">
+                        <option value="nothing">اختر</option>
+                        <option value="none">بدون وجبة</option>
+                        <option value="breakfast">فطور</option>
+                        <option value="lunch">غداء</option>
+                        <option value="dinner">عشاء</option>
+                        <option value="all-meals">جميع الوجبات</option>
+                    </select>
+                </div>
+
+                <button type="submit" style="margin-top: 2rem; color: #ffffff; font-size: 1.5rem;">حجز</button>
+            </form>
+        </div>
+    </div>
+    <div id="invoice" style="display: none;">
+        <div id="logo-container">
+            <img id="logo" src="images/Picture1.png" alt="Logo">
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2" style="font-size: 2rem;">فاتورة فندق ريوتان</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="right-align" style="font-weight: bold;">رقم الفاتورة:</td>
+                    <td class="left-align"><span id="invoiceNumber"></span></td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">تاريخ الفاتورة:</td>
+                    <td><span id="invoiceDate"></span></td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">وقت الحجز:</td>
+                    <td><span id="bookingTime"></span></td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">الاسم:</td>
+                    <td><span id="invoiceName"></span></td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">الايميل:</td>
+                    <td><span id="invoiceEmail"></span></td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">رقم الجوال:</td>
+                    <td><span id="invoicePhone"></span></td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">تاريخ الدخول:</td>
+                    <td><span id="invoiceIn"></span></td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">تاريخ الخروج:</td>
+                    <td><span id="invoiceOut"></span></td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">الامراض المزمنة:</td>
+                    <td><span id="invoicePain"></span></td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">الغرفة:</td>
+                    <td><span id="invoiceRoom"></span></td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">الوجبات:</td>
+                    <td><span id="invoiceMeals"></span></td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">السعر الإجمالي:</td>
+                    <td><span id="invoiceTotal"></span></td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="font-size: 1.5rem; color: #2560a9;">نتمنى لكم إقامة مريحة وسعيدة وشكرًا لإختياركم فندقنا ونتطلع
+            الى لِقائكم قريبًا</div>
+        <div style="font-size: 1.3rem;">ملاحظة : هذه الفاتورة وهذا الحجز وهمي ولا يُعنى بالحجز الفعلي</div>
+    </div>
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
+        <div class="container pb-3">
+            <div class="row justify-content-between">
+                <div class="col-lg-3 col-md-6">
+                    <h5 style="text-align: center;">موقع ريوتان</h5>
+                    <p class="ps-0" style="text-align: center;">يقع الفندق في شرق المملكة العربية السعودية في مدينة
+                        الظهران، شاطئ نصف القمر</p>
+
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex justify-content-center">
+
+                    <ul class="list-unstyled">
+                        <h5 style="text-align: center;">تواصل معنا</h5>
+                        <li><a href="#" style="color: #2560a9;"><i class="fa fa-phone me-3"
+                                    style="margin-left: 3.2rem;"></i>+966 555511141</a></li>
+                        <li><a href="#" style="color: #2560a9;"><i class="fa fa-envelope me-3"
+                                    style="margin-left: 1rem;"></i>ryutan.hotel@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5 style="text-align: center;">تابعنا على</h5>
+                    <ul class="social-network d-flex">
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright-section">
+            <p>جميع الحقوق محفوظة &copy; RYUTAN</p>
+        </div>
+    </section>
+
+    <script src="js/booking.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
